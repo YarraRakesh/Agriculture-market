@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Market</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Farmers & Customers Direct Market</h1>
+    </header>
+
+    <section id="products">
+        <h2>Available Products</h2>
+        <div id="product-list"></div>
+    </section>
+
+    <section id="add-product">
+        <h2>Add Your Product</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="number" id="product-price" placeholder="Price (₹)" required>
+            <input type="text" id="farmer-name" placeholder="Farmer Name" required>
+            <input type="text" id="farmer-contact" placeholder="Farmer Contact (Phone/WhatsApp)" required>
+            <input type="file" id="product-image" accept="image/*" required>
+            <button type="submit">Add Product</button>
+        </form>
+    </section>
+
+    <section id="customer-orders">
+        <h2>Customer Orders</h2>
+        <div id="order-list"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
